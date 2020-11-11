@@ -211,6 +211,48 @@ footer {
   padding-left: 20px;
 }
 
+.transition-dropdown .wishes-container {
+  position: fixed;
+  z-index: 10;
+  top: -100%;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.5rem 4rem 2rem 4rem;
+  background-color: #ffffff;
+  box-shadow: 0 0 64px 0 rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  font-family: "Proza Libre", sans-serif;
+  font-size: 1.5rem;
+  transition: top 1000ms linear 150ms, opacity 1000ms linear 250ms;
+}
+
+.transition-dropdown:hover .wishes-container {
+  top: 0;
+  opacity: 1;
+}
+
+/* .definable .definition-container {
+  position: fixed;
+  z-index: 10;
+  top: -100%;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.5rem 4rem 2rem 4rem;
+  background-color: #ffffff;
+  box-shadow: 0 0 64px 0 rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  font-family: "Proza Libre", sans-serif;
+  font-size: 1.5rem;
+  transition: top 1000ms linear 150ms, opacity 1000ms linear 250ms;
+}
+
+.definable:hover .definition-container {
+  top: 0;
+  opacity: 1;
+} */
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 12px;
