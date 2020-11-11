@@ -224,7 +224,7 @@ footer {
   opacity: 0;
   font-family: "Proza Libre", sans-serif;
   font-size: 1.5rem;
-  transition: top 1000ms linear 150ms, opacity 1000ms linear 250ms;
+  transition: top 700ms linear 100ms, opacity 1000ms linear 250ms;
 }
 
 .transition-dropdown:hover .wishes-container {
