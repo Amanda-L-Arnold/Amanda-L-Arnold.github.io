@@ -212,7 +212,8 @@ footer {
 }
 
 .transition-dropdown .wishes-container, 
-.t-d2 .w-c2 {
+.t-d2 .w-c2,
+.t-d3 .w-c3 {
   position: fixed;
   z-index: 10;
   top: -100%;
@@ -229,7 +230,8 @@ footer {
 }
 
 .transition-dropdown:hover .wishes-container, 
-.t-d2:hover .w-c2 {
+.t-d2:hover .w-c2,
+.t-d3:hover .w-c3 {
   top: 0;
   opacity: 1;
 }
