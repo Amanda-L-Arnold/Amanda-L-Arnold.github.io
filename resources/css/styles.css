@@ -211,7 +211,8 @@ footer {
   padding-left: 20px;
 }
 
-.transition-dropdown .wishes-container {
+.transition-dropdown .wishes-container, 
+.t-d2 .w-c2 {
   position: fixed;
   z-index: 10;
   top: -100%;
@@ -227,7 +228,8 @@ footer {
   transition: top 700ms linear 100ms, opacity 1000ms linear 250ms;
 }
 
-.transition-dropdown:hover .wishes-container {
+.transition-dropdown:hover .wishes-container, 
+.t-d2:hover .w-c2 {
   top: 0;
   opacity: 1;
 }
