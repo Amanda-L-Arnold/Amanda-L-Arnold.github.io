@@ -7,6 +7,7 @@ html {
   box-sizing: border-box;
   font-family: sans-serif;
   line-height: 1.15;
+  font-size: 16px;
 }
 
 head {
@@ -193,6 +194,7 @@ p {
 
 #contact {
   height: 200px;
+  background-color: #8a1212;
 }
 
 h5 {
