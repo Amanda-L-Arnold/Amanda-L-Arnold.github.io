@@ -87,13 +87,14 @@ div {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 4.375rem;
+  padding-top: 9.375rem;
 }
 
 #banner .content {
   margin: auto;
   background-color: black;
   width: 100%;
+  margin-top: 12rem;
 }
 
 h2, h3, h4 {
