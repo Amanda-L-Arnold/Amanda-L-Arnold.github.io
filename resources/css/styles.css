@@ -65,6 +65,7 @@ nav span {
 }
 
 a {
+  padding: 1rem;
   color: seashell;
   cursor: pointer;
   text-decoration: underline;
@@ -147,7 +148,6 @@ h4 {
   text-align: center;
 }
 
-span,
 a {
   background-color: black;
 }
