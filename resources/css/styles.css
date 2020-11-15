@@ -42,7 +42,6 @@ header {
   width: 100%;
   position: fixed;
   z-index: 1;
-  /* height: 4.3125rem; */
   background-color: black;
   border-bottom: 1px solid seashell;
   align-items: center;
