@@ -147,11 +147,17 @@ h4 {
   text-align: center;
 }
 
+span,
+a {
+  background-color: black;
+}
+
 #dates {
   background-image: url(../images/calendar.jpg);
   background-size: cover;
   background-position: center;
   height: 31.25rem;
+  margin-top: 6rem;
   padding-top: 4.375rem;
 }
 
@@ -193,9 +199,14 @@ p {
   margin-inline-end: 0px;
 }
 
+.claimed {
+  background-color: #8a1212;
+}
+
 #contact {
   height: 12.5rem;
   background-color: #8a1212;
+  margin-top: 6rem;
 }
 
 h5 {
