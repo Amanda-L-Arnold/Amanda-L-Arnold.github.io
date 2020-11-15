@@ -35,13 +35,14 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  flex: 1;
 }
 
 header {
   width: 100%;
   position: fixed;
   z-index: 1;
-  height: 4.3125rem;
+  /* height: 4.3125rem; */
   background-color: black;
   border-bottom: 1px solid seashell;
   align-items: center;
@@ -123,7 +124,7 @@ h4 {
 #pchas,
 #pcc,
 #hoh {
-  height: 43.75rem;
+  /* height: 43.75rem; */
   width: 62.5rem;
   margin: auto;
   padding-top: 4.375rem;
@@ -217,7 +218,14 @@ footer {
 .t-d2 .w-c2,
 .t-d3 .w-c3,
 .t-d4 .w-c4,
-.t-d5 .w-c5 {
+.t-d5 .w-c5,
+.t-d6 .w-c6,
+.t-d7 .w-c7,
+.t-d8 .w-c8,
+.t-d9 .w-c9,
+.t-d10 .w-c10,
+.t-d11 .w-c11,
+.t-d12 .w-c12 {
   position: fixed;
   z-index: 10;
   top: -100%;
@@ -237,7 +245,14 @@ footer {
 .t-d2:hover .w-c2,
 .t-d3:hover .w-c3,
 .t-d4:hover .w-c4,
-.t-d5:hover .w-c5 {
+.t-d5:hover .w-c5,
+.t-d6:hover .w-c6,
+.t-d7:hover .w-c7,
+.t-d8:hover .w-c8,
+.t-d9:hover .w-c9,
+.t-d10:hover .w-c10,
+.t-d11:hover .w-c11,
+.t-d12:hover .w-c12 {
   top: 0;
   opacity: 1;
 }
