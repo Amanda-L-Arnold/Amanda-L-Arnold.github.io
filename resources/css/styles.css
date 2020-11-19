@@ -236,7 +236,25 @@ footer {
 .t-d9 .w-c9,
 .t-d10 .w-c10,
 .t-d11 .w-c11,
-.t-d12 .w-c12 {
+.t-d12 .w-c12,
+.t-d13 .w-c13,
+.t-d14 .w-c14,
+.t-d15 .w-c15,
+.t-d16 .w-c16,
+.t-d17 .w-c17,
+.t-d18 .w-c18,
+.t-d19 .w-c19,
+.t-d20 .w-c20,
+.t-d21 .w-c21,
+.t-d22 .w-c22,
+.t-d23 .w-c23,
+.t-d24 .w-c24,
+.t-d25 .w-c25,
+.t-d26 .w-c26,
+.t-d27 .w-c27,
+.t-d28 .w-c28,
+.t-d29 .w-c29,
+.t-d30 .w-c30 {
   position: fixed;
   z-index: 10;
   top: -100%;
@@ -263,7 +281,25 @@ footer {
 .t-d9:hover .w-c9,
 .t-d10:hover .w-c10,
 .t-d11:hover .w-c11,
-.t-d12:hover .w-c12 {
+.t-d12:hover .w-c12,
+.t-d13:hover .w-c13,
+.t-d14:hover .w-c14,
+.t-d15:hover .w-c15,
+.t-d16:hover .w-c16,
+.t-d17:hover .w-c17,
+.t-d18:hover .w-c18,
+.t-d19:hover .w-c19,
+.t-d20:hover .w-c20,
+.t-d21:hover .w-c21,
+.t-d22:hover .w-c22,
+.t-d23:hover .w-c23,
+.t-d24:hover .w-c24,
+.t-d25:hover .w-c25,
+.t-d26:hover .w-c26,
+.t-d27:hover .w-c27,
+.t-d28:hover .w-c28,
+.t-d29:hover .w-c29,
+.t-d30:hover .w-c30 {
   top: 0;
   opacity: 1;
 }
